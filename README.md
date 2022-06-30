@@ -48,12 +48,15 @@ gcloud container clusters create-auto mcs-cc \
 gcloud container clusters get-credentials mcs-us \
   --zone=${REGION_US} \
   --project=${PROJECT_ID}
+
 gcloud container clusters get-credentials mcs-eu \
   --zone=${REGION_EU} \
   --project=${PROJECT_ID}
+
 gcloud container clusters get-credentials mcs-as \
   --zone=${REGION_AS} \
   --project=${PROJECT_ID}
+
 gcloud container clusters get-credentials mcs-cc \
   --zone=${REGION_CC} \
   --project=${PROJECT_ID}
